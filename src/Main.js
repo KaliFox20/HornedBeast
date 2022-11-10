@@ -5,7 +5,8 @@ import HornedBeast from './HornedBeast';
 class Main extends React.Component {
 
   render() {
-    let beastArr = data.map(v, i);
+    let beastArr = []; 
+    data.map(v, i);
     
   }
   return(
