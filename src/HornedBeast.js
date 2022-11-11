@@ -23,11 +23,8 @@ return(
 <Card.Header>
   <h2>{this.props.title}</h2>
 </Card.Header>
- <img onClick ={this.likes} src={this.props.image_url}alt={this.props.description}title={this.props.title}></img>
- <Card.Text>
+ <img onClick ={this.likes} src={this.props.image_url}alt=''title={this.props.title}></img>
   <p>{this.props.description}</p>
- </Card.Text>
-  
   <p>{this.state.likes} heart</p>
 
   </Card>
