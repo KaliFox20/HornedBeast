@@ -5,7 +5,7 @@ import HornedBeast from './HornedBeast';
 class Main extends React.Component {
 
   render() {
-
+    return (
       <main>
         <>
           {
@@ -25,7 +25,7 @@ class Main extends React.Component {
         </>
 
       </main >
-
+    );
 
   }
 
